@@ -1,0 +1,26 @@
+{
+  "name": "parcel-transformer-ogimage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "parcel",
+    "og",
+    "open",
+    "graph",
+    "image",
+    "absolute"
+  ],
+  "author": "Leonard Nolting",
+  "license": "MIT",
+  "engines": {
+    "parcel": "2.x"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.2.1",
+    "chalk": "^2.4.2",
+    "ora": "^3.4.0",
+    "pretty-ms": "^5.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
