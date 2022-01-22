@@ -1,0 +1,1 @@
+# Fix OG image paths in parcel
