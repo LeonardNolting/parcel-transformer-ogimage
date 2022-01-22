@@ -1,25 +1,41 @@
 {
-  "name": "parcel-transformer-ogimage",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [
-    "parcel",
-    "og",
-    "open",
-    "graph",
-    "image",
-    "absolute"
-  ],
-  "author": "Leonard Nolting",
-  "license": "MIT",
-  "engines": {
-    "parcel": "2.x"
-  },
-  "dependencies": {
-    "@parcel/plugin": "^2.2.1"
-  },
-  "devDependencies": {
-    "semantic-release": "^19.0.2"
-  }
+	"name": "parcel-transformer-ogimage",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [
+		"parcel",
+		"og",
+		"open",
+		"graph",
+		"image",
+		"absolute"
+	],
+	"author": "Leonard Nolting",
+	"license": "MIT",
+	"engines": {
+		"parcel": "2.x"
+	},
+	"release": {
+		"branches": [
+			"([0-9])?(.{+([0-9]),x}).x",
+			"main",
+			"next",
+			"next-major",
+			{
+				"name": "beta",
+				"prerelease": true
+			},
+			{
+				"name": "alpha",
+				"prerelease": true
+			}
+		]
+	},
+	"dependencies": {
+		"@parcel/plugin": "^2.2.1"
+	},
+	"devDependencies": {
+		"semantic-release": "^19.0.2"
+	}
 }
