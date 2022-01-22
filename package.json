@@ -17,10 +17,6 @@
     "parcel": "2.x"
   },
   "dependencies": {
-    "@parcel/plugin": "^2.2.1",
-    "chalk": "^2.4.2",
-    "ora": "^3.4.0",
-    "pretty-ms": "^5.0.0",
-    "fs": "^0.0.1-security"
+    "@parcel/plugin": "^2.2.1"
   }
 }
